@@ -1,0 +1,5 @@
+gym[atari]
+torch
+matplotlib
+scikit-image=0.15.0
+
