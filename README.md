@@ -28,6 +28,8 @@ pip install gym[atari]
 pip install -r requirements.txt
 ```
 
+## Getting Start
+主程式在 `jupyter/SpaceInvader.ipynb`
 
 ## Demo
 Playing Space Invader<br>
@@ -76,6 +78,11 @@ agent 在和 env 互動時並不會直接把 state, next state, action, reward �
 
 ## 學習過程 Training process
 ![image](./static/RL-agent.PNG)
+
+## 結果 Result
+![image](./static/DQN_SpaceInvaders-v0_0.loss.png)
+![image](./static/DQN_SpaceInvaders-v0_0.Q_value.png)
+![image](./static/DQN_SpaceInvaders-v0_0.reward.png)
 
 ## Reference
 - [Deep Reinforcement Learning to play Space Invaders](https://nihit.github.io/resources/spaceinvaders.pdf)
