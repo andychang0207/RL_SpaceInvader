@@ -71,11 +71,11 @@ agent 在和 env 互動時並不會直接把 state, next state, action, reward �
 ## 模型 Model
 利用 2D Convolutional Neural Network 將輸入的 state 降維，再用 Fully Connected Neural Network 預測出6個動作的 Q value
 
-![image](./static/cnn_DQN.png)
+![image](./static/cnn_DQN.PNG)
 
 
 ## 學習過程 Training process
-![image](./static/RL-agent.png)
+![image](./static/RL-agent.PNG)
 
 ## Reference
 - [Deep Reinforcement Learning to play Space Invaders](https://nihit.github.io/resources/spaceinvaders.pdf)
